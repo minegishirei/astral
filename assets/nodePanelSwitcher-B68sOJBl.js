@@ -1,0 +1,1 @@
+import{ai as e}from"./index-DVzRwyKA.js";const o=e("nodePanelSwitcher",{state:()=>({open:localStorage.getItem("nodePanelSwitcher")!=="false"}),actions:{switch(){this.open=!this.open,localStorage.setItem("nodePanelSwitcher",this.open?"true":"false")}}});export{o as u};
